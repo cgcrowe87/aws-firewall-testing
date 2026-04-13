@@ -155,6 +155,8 @@ resource "aws_networkfirewall_rule_group" "allow_google" {
 		  ".ec2messages.${var.aws_region}.amazonaws.com",
                   ".foxnews.com",
                   ".cnn.com",
+                  ".lowes.com",
+                  
 		]
       }
     }
